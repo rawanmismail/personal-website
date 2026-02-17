@@ -907,6 +907,18 @@ footer {
     transform: translateY(-2px);
 }
 
+/* ─── Scroll Progress Bar ─── */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-hover));
+    z-index: 9999;
+    transition: width 0.1s linear;
+}
+
 /* ─── Back to Top ─── */
 .back-to-top {
     position: fixed;
