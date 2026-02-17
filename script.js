@@ -117,12 +117,20 @@ document.querySelectorAll('.skill-bar').forEach(bar => {
     barObserver.observe(bar);
 });
 
-// ─── Back to Top ──────────────────────────────────────────────────
-const backToTopBtn = document.getElementById('backToTop');
+// ─── Scroll Progress Bar ─────────────────────────────────────────
+const scrollProgress = document.getElementById('scrollProgress');
 
 window.addEventListener('scroll', () => {
+    const scrollTop    = window.scrollY;
+    const docHeight    = document.documentElement.scrollHeight - window.innerHeight;
+    const pct          = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+    scrollProgress.style.width = pct + '%';
+
+    // Back to top visibility
     backToTopBtn.classList.toggle('show', window.pageYOffset > 300);
 });
+
+// ─── Back to Top ──────────────────────────────────────────────────
 
 function scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
