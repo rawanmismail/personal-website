@@ -158,6 +158,33 @@ nav {
     color: var(--accent);
 }
 
+.language-toggle {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+    padding: 0 0.8rem;
+    height: 40px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.language-toggle:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.language-toggle i {
+    font-size: 1rem;
+}
+
 .cv-btn {
     background: var(--accent);
     color: white;
