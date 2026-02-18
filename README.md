@@ -4,14 +4,11 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 [![Live Demo](https://img.shields.io/badge/demo-live-success?style=for-the-badge)](https://rawanmismail.github.io/personal-website)
 [![GitHub](https://img.shields.io/badge/github-repository-181717?style=for-the-badge&logo=github)](https://github.com/rawanmismail/personal-website)
 
----
 
-## ✨ Features
-
-### 🎨 Design & UI
+### Design
 - **Clean & Minimal Design** — Aesthetic brown color scheme with professional styling
 - **Dark/Light Mode** — Toggle between themes with smooth transitions
-- **Bilingual Support** — Full English and Arabic versions with RTL layout
+- **Bilingual Support** — Full English and Arabic versions
 - **Smooth Animations** — Typing effects, scroll animations, and hover interactions
 - **Scroll Progress Bar** — Visual indicator at the top showing page progress
 - **Custom Cursor** — Interactive cursor design (desktop only)
@@ -36,7 +33,7 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 8. **Projects** — Portfolio of web development and database projects
 9. **Contact** — Email, phone, social links, and contact form
 
----
+
 
 ## 🛠️ Tech Stack
 
