@@ -14,7 +14,7 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 - **Custom Cursor** — Interactive cursor design (desktop only)
 - **Fully Responsive** — Optimized for all devices (mobile, tablet, desktop)
 
-### 🚀 Functionality
+### Functionality
 - **Single Page Navigation** — Smooth scroll to sections
 - **Animated Typing** — Dynamic text showcasing specialties
 - **Skill Progress Bars** — Visual representation of skill levels with animations
@@ -22,7 +22,7 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 - **Back to Top Button** — Quick navigation to top of page
 - **Fade-in Animations** — Content reveals as you scroll
 
-### 📱 Sections
+### Sections
 1. **Hero** — Introduction with typing animation and social links
 2. **About** — Personal bio, location, and interests
 3. **Education** — Foundation year at Heriot-Watt University
@@ -35,15 +35,15 @@ A modern, responsive portfolio website showcasing my projects, skills, and exper
 
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
 
 **Built with:**
-- Pure HTML5, CSS3, and Vanilla JavaScript
+- HTML5, CSS3, and JavaScript
 - Font Awesome 6.4.0 for icons
 - CSS Custom Properties for theming
 - CSS Grid & Flexbox for layouts
